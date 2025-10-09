@@ -1,0 +1,127 @@
+:root{
+    --maincolor:#5237f9;
+}
+body{
+    height:5000px;
+}
+.icon-corpox{
+    background-color: var(--maincolor);
+    padding: 4px;
+    border-radius: 7px;
+}
+.btn-nav{
+    background-color: var(--maincolor);
+color: #fff;
+border: none;
+font-family:"Plus Jakarta Sans", sans-serif;
+font-size:14px;
+font-weight:500px;
+border-radius: 9px;
+line-height:30px;
+margin-left: 12px;
+margin-right: 12px;
+transition: 0.3s;
+}
+.search{
+    margin-left: 10px;
+}
+.btn-nav:hover{
+    box-shadow: 0px 8px 17px rgb(10, 206, 52);
+}
+.offcanvas-body{
+    background-color: #000;
+    color:#fff;
+}
+.corpox{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.p-address{
+    color: rgba(226, 230, 255, 0.65);
+}
+.icon-social-all{
+ padding-top: 40px;
+}
+.icon-social{
+   box-shadow: 0 0px 12px rgb(3, 233, 22);
+ margin-left: 20px;
+ padding: 5px;
+  border-radius: 60%;
+ font-size: 20px;
+   
+}
+.offcanvas-header{
+    background-color: #000;
+}
+.btn-close{
+    filter: invert(1);
+      box-shadow: 0 0px 12px rgb(3, 233, 22);
+
+}
+.search-box form{
+        border: 5px solid var(--maincolor);
+    border-radius: 5px;
+ display: flex;
+    align-items: center;
+  
+}
+.top-search{
+background-color: var(--maincolor);
+
+font-size: 20px;
+
+border: none;
+cursor:pointer;
+ border: none;
+    outline: none;
+    padding: 8px 13px;
+
+}
+.top-text{
+   background-color: #000;
+   color: #fff;
+     border: none;
+    outline: none;
+    padding-left: 9px;
+    width: 100%;
+}
+.popular{
+    padding-top: 30px;
+    text-align: center;
+}
+.popular-tag{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.popular-part{
+   margin-right: 17px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #0c0b0b;
+    border-radius: 20%;
+    border: 1px solid #585555;
+    
+    transition: all .5s;
+    cursor: pointer;
+}
+.popular-part:hover {
+    background-color: var(--maincolor);
+}
+.btn-top{
+  width: 100px;
+    transition: all .5s;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btn-top:hover{
+background-color: var(--maincolor);
+
+}
+.text-top{
+    background-color: #000;
+    color: #fff;
+}
