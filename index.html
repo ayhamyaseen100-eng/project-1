@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
   </head>
   <body>
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark  position-sticky top-0">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top  position-sticky top-0">
   <div class="container">
     <a class="navbar-brand" href="#"> <i class="fa-solid fa-chart-simple icon-corpox" style="color: #f1f2f3;"></i> Corpox</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,41 @@
         <li class="nav-item">
           <a class="nav-link active" href="#">Pages</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown  position-static w-50">
           <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Service Layout</a></li>
-            <li><a class="dropdown-item" href="#">Service Details</a></li>
-            <li><a class="dropdown-item" href="#">Service hub</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Service Details</a></li>
+          <ul class="dropdown-menu dropdown-menu-start drop-services" aria-labelledby="servicesDropdown">
+           <div> <img class="drop-img-services" src="./assets/img/offcaves-end/top-drop.webp"></div>
+           
+            <li><h2 class="h2-drop top-drop">Service Layout</h2></li>
+             <li><a class="dropdown-item" href="#"><p>our service </p></a></li>
+              <li><a class="dropdown-item" href="#"><p>our service tow </p></a></li>
+               <li><a class="dropdown-item" href="#"><p>our service three </p></a></li>
+                 <li><a class="dropdown-item" href="#"><p>our service four</p></a></li>
+              <li><a class="dropdown-item" href="#"><p>our service five</p></a></li>
+               <li><a class="dropdown-item" href="#"><p>our service six</p></a></li>
+                  <li><a class="dropdown-item d-flex" href="#"><p>service list style</p> <p class="btn-sm btn-drop-new">New</p></a></li>
+         <li><h2 class="h2-drop">Service Details</h2></li>
+            <li><a class="dropdown-item d-flex" href="#"><p>Service Details</p> </p>  <p class="btn-sm btn-drop-popular">Popular</p></a></li>
+           
+            <li><a class="dropdown-item" href="#"> <p>Service Details Center</a></li>
+              <div class="container">
+  <div class="row bottom-drop-service">
+    <div class="col-6">
+      <a href="#" class="bottom-items-servics d-block mb-2"><i class="fa-solid fa-file fa-xs icon-drop-servic" style="color: #63E6BE;"></i>Quick Start Guide</a>
+    </div>
+    <div class="col-6">
+      <a href="#" class="bottom-items-servics d-block mb-2"><i class="fa-solid fa-file fa-xs icon-drop-servic" style="color: #63E6BE;"></i>For Open Source</a>
+    </div>
+    <div class="col-6">
+      <a href="#" class="bottom-items-servics d-block mb-2"><i class="fa-solid fa-file fa-xs icon-drop-servic" style="color: #63E6BE;"></i>API Status</a>
+    </div>
+    <div class="col-6">
+      <a href="#" class="bottom-items-servics d-block mb-2"><i class="fa-solid fa-file fa-xs icon-drop-servic" style="color: #63E6BE;"></i>Support</a>
+    </div>
+  </div>
+</div>
           </ul>
            <li class="nav-item">
           <a class="nav-link active" href="#">Projects</a>
@@ -48,7 +73,7 @@
         </li>
          <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Element</a>
-           <ul class="dropdown-menu">
+           <ul class="dropdown-menu drop-elemant">
             <li><a class="dropdown-item" href="#">404 Pages</a></li>
             <li><a class="dropdown-item" href="#">type Style</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -189,10 +214,24 @@ New York, NY 10022</p>
     </div>
   </div>
 </div>
-
-
-
   </div>
+</div>
+<div class="hero">
+
+ <div class="p-hero">
+    <div> <p class="top-hero">Finance And Consulting </p></div>
+  
+    <div class="last-hero">
+       <h1>We Help to Grow</h1>
+    <p>Financial consulting involves providing expert advice and solutions to individuals, businesses, or organizations to help them manage their finances effectively.</p>
+    <button class="btn-hero">Get A Free Quote</button>
+    </div>
+   <div class="vertical-line"></div>
+  </div>
+
+   
+ 
+ 
 </div>
 
                 <!--bootstrap 5.3-->
