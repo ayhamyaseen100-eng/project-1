@@ -60,7 +60,11 @@ transition: 0.3s;
  font-size: 20px;
    
 }
+.btn-search{
+    margin-right:70px ;
+}
 .offcanvas-header{
+   
     background-color: #000;
 }
 .btn-close{
@@ -156,13 +160,16 @@ background-color: var(--maincolor);
 .icon-drop-servic{
     margin-right: 10px;
 }
+.service-details{
+    margin-bottom: -15px;
+}
 .drop-services{
-    margin-left:400px;
+   
     background-color:rgb(0, 0, 0);
 }
 .dropdown-item{
     color: #fff;
-    margin-left: 20px;
+   margin-left: -12px;
 }
 .bottom-drop-service{
    margin-bottom: -10px;
@@ -172,18 +179,17 @@ background-color: var(--maincolor);
 
 }
 .dropdown-menu-start{
-    
     width: 400px;
 }
 .drop-img-services{
   border-radius: 5px;
  margin-top: -8px;
-   width: 400px;
+   width: 100%;
     height: 80px;
 }
 .h2-drop{
     color: #fff;
-    margin-left: 20px;
+    text-align: center;
 }
 .top-drop{
     margin-top: 10px;
@@ -207,6 +213,30 @@ background-color: var(--maincolor);
 
 
 
+.drop-elemant{
+ 
+height: 432px;
+  background-color: #000;
+
+}
+.drop-img-elemant{
+    max-width: 150px;
+    height: 430px;
+    margin-top: -8px;
+    border-radius: 3px;
+}
+.drop-hot{
+    background-color: #04f05e;
+    width: max-content;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: -3px;
+}
+.btn-drop-hot:hover{
+    color:#fff;
+}
 
 
 
@@ -216,6 +246,9 @@ background-color: var(--maincolor);
 
 
 
+
+
+/*hero*/
 .hero-img{
     width:100%;
     height: 100vh;
@@ -267,13 +300,14 @@ background-color: var(--maincolor);
 display: inline-block;
     border-radius: 5px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 5px;
 }
 .btn-hero{
     background-color: var(--maincolor);
     padding: 10px;
     color: #fff;
+    margin-top: 15px;
     border-radius: 5px;
     border: none;
     transition: all .5s;
@@ -284,6 +318,116 @@ display: inline-block;
 }
 .last-hero{
      margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
+}
+/*ABOUT*/
+.word-about{
+   
+   border-radius: 5px;
+   padding: 5px;
+   animation: blink 3s infinite ;
+  margin-bottom: 50px;
+    display: inline-block;
+    background-color: #3d3b3b;
+}
+@keyframes blink{
+    0%,50%,100%{ 
+        color: #04f05e;
+        box-shadow: 0px 8px 8px #04f05e;}
+    25%,75%{
+        color: #5237f9;
+        box-shadow:0px 8px 8px  #5237f9;}
+}
+.about{
+ height: auto;
+ margin-top: 150px;
+}
+.about-img{
+    border-radius: 7px;
+  display: flex;
+    margin-top: 60px;
+    width: 600px;
+    height: 600px;
+  
+}
+
+.h1-about{
+    font-size:50px ;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color: #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:#fff;
+    background-color: var(--maincolor);
+    border: none;}
+    .word-fast{
+ border-radius: 5px;
+   padding: 5px;
+   animation: blink2 3s infinite ;
+  width: max-content;
+    display: inline-block;
+    background-color: #3d3b3b;
+    }
+    @keyframes blink2{
+    0%,50%,100%{ 
+        color: #04f05e;
+        box-shadow: 0px 8px 8px #00ee34;}
+    25%,75%{
+        color: #5237f9;
+        box-shadow:0px 8px 8px  #fc0505;}
+}
+.word-quality{
+     border-radius: 5px;
+   padding: 5px;
+   animation: blink3 3s infinite ;
+  width: max-content;
+    display: inline-block;
+    background-color: #3d3b3b;
+    margin-bottom: 20px;
+}
+@keyframes blink3{
+    0%,50%,100%{ 
+        color: #04f05e;
+        box-shadow: 0px 8px 8px #04f05e;}
+    25%,75%{
+        color: #2406eb;
+        box-shadow:0px 8px 8px  #f83504;}
+}
+.btn-readmore{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--maincolor);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*service*/
+.service{
+    height: auto;
+ margin-top: 200px;
+ text-align: center;
+}
+.word-service{
+   border-radius: 10px;
+ display: inline-block;
+  padding: 5px;
+  text-align: center;
+   
+   animation: blink 3s infinite ;
+ 
+  background-color: #3d3b3b;
+    
+}
+.box-service{
+    transition:all .5s;
+padding: 10px;
+}
+.box-service:hover{
+    transform: scale(1.05);
+    box-shadow:0px 8px 9px var(--maincolor);
+    border: #2406eb;
 }
