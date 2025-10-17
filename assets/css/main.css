@@ -122,7 +122,7 @@ cursor:pointer;
     background-color: var(--maincolor);
 }
 .btn-top{
-  width: 100px;
+  width:max-content;
     transition: all .5s;
     padding-left: 5px;
     border-radius: 5px;
@@ -428,6 +428,6 @@ padding: 10px;
 }
 .box-service:hover{
     transform: scale(1.05);
-    box-shadow:0px 8px 9px var(--maincolor);
+    box-shadow:0px 15px 25px var(--maincolor);
     border: #2406eb;
 }
