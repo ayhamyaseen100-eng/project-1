@@ -2,7 +2,7 @@
     --maincolor:#5237f9;
 }
 body{
-    height:5000px;
+    height:8000px;
     background-color: #000;
     color: #fff;
 }
@@ -408,7 +408,7 @@ display: inline-block;
 /*service*/
 .service{
     height: auto;
- margin-top: 200px;
+ margin-top: 150px;
  text-align: center;
 }
 .word-service{
@@ -430,4 +430,95 @@ padding: 10px;
     transform: scale(1.05);
     box-shadow:0px 15px 25px var(--maincolor);
     border: #2406eb;
+}
+
+/*my business*/
+.my-business-service{
+    margin-top: 150px;
+}
+.taper-line{
+    width: 200px;
+    height: 0;
+    border-top:8px solid var(--maincolor);
+    border-right: 200px solid transparent;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.word-mybusiness{
+    color:rgba(226, 230, 255, 0.65);
+}
+.btn-mybusiness{
+   width: auto;
+   flex: 0 0 auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--maincolor);
+    color: #fff;
+     animation:puls 1s infinite
+}
+@keyframes puls{
+    0%{
+        transform: scale(1);
+    }
+      50%{
+        transform: scale(1.1);
+    }
+      100%{
+        transform: scale(1);
+    }
+}
+.img-mybusiness{
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.btn-mybusiness:hover{
+    transform: scale(1.05);
+    background-color: rgb(7, 243, 38);
+}
+.section-mybusiness{
+    margin-top: 100px;
+}
+.icon-mybusiness{
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--maincolor);
+      box-shadow: 0 8px 8px rgb(188, 230, 4);
+}
+.h2-mybusiness{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.p-mybusiness{
+    color:rgba(226, 230, 255, 0.65);
+}
+
+
+
+/*u-c section*/
+.uc{
+      height: auto;
+ text-align: center;
+}
+.word-uc{
+    margin-top: 145px;
+    border-radius: 10px;
+    display: inline-block;
+  padding: 5px;  
+   animation: blink 3s infinite ;
+  background-color: #3d3b3b;
+}
+.box-number{
+   padding: 50px 10px 50px;
+   margin-top: -25px;
+   font-size: 40px;
+     background-color: #1a1717;
+     margin-bottom: 20px;
+     box-shadow: 0px 8px 8px greenyellow;
+}
+
+.p-uc{
+     color:rgba(226, 230, 255, 0.65);
 }
