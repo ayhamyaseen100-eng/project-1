@@ -455,7 +455,7 @@ padding: 10px;
     padding: 10px;
     background-color: var(--maincolor);
     color: #fff;
-     animation:puls 1s infinite
+     animation:puls 1s infinite;
 }
 @keyframes puls{
     0%{
@@ -514,12 +514,10 @@ padding: 10px;
    padding: 50px 10px 50px;
    margin-top: -25px;
    font-size: 40px;
+      animation:puls 3s infinite;
      background-color: #1a1717;
      margin-bottom: 20px;
      box-shadow: 0px 8px 8px greenyellow;
-}
-.box-number:hover{
-   
 }
 .p-uc{
      color:rgba(226, 230, 255, 0.65);
