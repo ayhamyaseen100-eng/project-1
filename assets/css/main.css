@@ -2,7 +2,7 @@
     --maincolor:#5237f9;
 }
 body{
-    height:8000px;
+    height:12000px;
     background-color: #000;
     color: #fff;
 }
@@ -321,7 +321,7 @@ display: inline-block;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-/*ABOUT*/
+/*   ABOUT   */
 .word-about{
    
    border-radius: 5px;
@@ -535,6 +535,8 @@ padding: 10px;
     height: 400px;
  margin-left: auto;
 }
+
+
 /*talents*/
 .talents{
         height: auto;
@@ -576,4 +578,128 @@ padding: 10px;
     width: 13px;
     height: 13px;
     border-radius: 50%;
+}
+
+
+
+/*our-latestnews*/
+.our-latestnews{
+           height: auto;
+ text-align: center;
+}
+.word-our-latestnews{
+      margin-top: 150px;
+    border-radius: 10px;
+    display: inline-block;
+  padding: 5px;  
+   animation: blink 3s infinite ;
+  background-color: #3d3b3b;
+}
+.box1-our-lates{
+    color: #fff;
+    background-color: #000000;
+   align-items: center;
+}
+
+
+.img-our-lates{
+ width:500px;
+ height:300px;
+   border-radius: 5px;
+   transition: all 1s;
+}
+.img-our-lates:hover{
+   
+    scale: calc(1.05);
+}
+
+.titel-our-lates{
+    cursor: pointer;
+    transition: 1s all;
+    margin-bottom: 30px;
+}
+.titel-our-lates:hover{
+    scale: calc(1.05);
+}
+.text-our-lares{
+    color: #9497a6;
+}
+.btn-our-lates{
+    background-color: var(--maincolor);
+    animation: puls 1.5s infinite;
+    border: none;
+    border-radius: 5px;
+       transition: .5s all;
+
+}
+.btn-our-lates:hover{
+    background-color: #00ee34;
+    color: #fff;
+}
+/*appoinment*/
+.appoinment{
+     height: auto;
+ text-align: center;
+}
+.word-appoinment{
+       margin-top: 150px;
+    border-radius: 10px;
+    display: inline-block;
+  padding: 5px;  
+   animation: blink 3s infinite ;
+  background-color: #3d3b3b;
+}
+.form-control{
+    background-color: #000;
+    color: white;
+box-shadow:0px 8px 8px  greenyellow ;
+}
+.form-control:focus{
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    color: #a8a2a2;
+   
+}
+
+.input-message{
+    height: 60px;
+    padding-bottom: 100px;
+    resize: none;
+    overflow: hidden;
+}
+.input-message:focus{
+    box-shadow: none;
+}
+.input-email{
+    margin-bottom: 25px;
+}
+.input-number{
+    margin-bottom: 20px;
+}
+.input-email:focus{
+box-shadow: none;
+}
+.input-subject{
+    margin-bottom: 25px;
+}
+.input-subject:focus{
+box-shadow: none;
+}
+.input-number{
+    overflow:hidden;
+}
+.btn-appoinment{
+    margin-top: 40px;
+    box-shadow: none;
+    background-color: var(--maincolor);
+    border: none;
+    transition: all 1s;
+}
+.btn-appoinment:hover{
+    background-color:greenyellow ;
+    color:var(--maincolor);
 }
