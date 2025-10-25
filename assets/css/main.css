@@ -703,3 +703,25 @@ box-shadow: none;
     background-color:greenyellow ;
     color:var(--maincolor);
 }
+
+/*our-awesome-client*/
+.our-awesome-client{
+       height: auto;
+ text-align: center;
+}
+.word-our-awesome-client{
+      margin-top: 330px;
+    border-radius: 10px;
+    display: inline-block;
+  padding: 5px;  
+   animation: blink 3s infinite ;
+  background-color: #312e2e;
+
+}
+.img-oac{
+    transition: all 1.5s;
+    cursor: pointer;
+}
+.img-oac:hover{
+    scale: calc(1.3);
+}
