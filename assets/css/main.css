@@ -998,4 +998,20 @@ color: greenyellow;
 .text-blog{
     text-align: center;
 }
+/*project*/
+.btn-project-project{
+    background-color: #2406eb;
+    color: #fff;
+    border: none;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+.btn-app-project{
+     background-color: #2406eb;
+    color: #fff;
+     border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
 
