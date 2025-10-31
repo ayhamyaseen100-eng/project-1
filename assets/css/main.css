@@ -2,7 +2,7 @@
     --maincolor:#5237f9;
 }
 body{
-    height:11000px;
+    height:auto;
     background-color: #000;
     color: #fff;
 }
@@ -277,7 +277,7 @@ height: 432px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     top: 150px;
     box-sizing: border-box;
     left: 20px;
@@ -824,7 +824,7 @@ margin-top:100px ;
 }
 .box-right-last-home{
     background-color: var(--maincolor);
-    margin-top: 250px;
+   
 }
 .num-last-home{
     color: var(--maincolor);
@@ -887,9 +887,9 @@ cursor: pointer;
     font-weight: bold;
 }
 .box-right-last-home{
-    margin-top:100px;
+    margin-top:10px;
     border-radius: 10px;
-    height: 300px;
+    height: auto;
 }
 .input-last-home{
     background-color:var(--maincolor) ;
@@ -938,9 +938,35 @@ cursor: pointer;
 .scrool-top{
     position: fixed;
     z-index: 1000;
+    width: 6%;
     top:50%;
     right: 20px;
    cursor: pointer;
 }
-
-
+/*page-2 Contact*/
+.contact-with-us{
+        height: auto;
+ text-align: center;
+}
+.word-contact-with-us{
+     margin-top: 150px;
+    border-radius: 10px;
+    display: inline-block;
+  padding: 5px;  
+   animation: blink 3s infinite ;
+  background-color: #312e2e;
+}
+.box-contact{
+   box-shadow: 0px 8px 8px var(--maincolor);
+   transition: all 1s;
+}
+.box-contact:hover{
+    box-shadow: 0px 8px 8px greenyellow;
+}
+.phone-contact{
+    transition: all 1s;
+    color: #968e8e;
+}
+.phone-contact:hover{
+color: greenyellow;
+}
