@@ -994,4 +994,8 @@ color: greenyellow;
     position: absolute;
   width: 41px;
 }
+/*blog*/
+.text-blog{
+    text-align: center;
+}
 
