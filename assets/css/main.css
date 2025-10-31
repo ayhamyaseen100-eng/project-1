@@ -933,7 +933,7 @@ cursor: pointer;
     width: 100px;
     height: 30px;
     cursor: pointer;
-    animation:puls 1.5s infinite;;
+    animation:puls 1.5s infinite;
 }
 .scrool-top{
     position: fixed;
@@ -970,3 +970,28 @@ cursor: pointer;
 .phone-contact:hover{
 color: greenyellow;
 }
+.p-last-contact{
+    color: #bbb2b2;
+}
+.a-contact{
+    color: #fff;
+    transition: all 1s;
+}
+.a-contact:hover{
+    text-decoration: underline;
+    color: var(--maincolor);
+}
+.footer-contact{
+    background-color: #000000;
+}
+.list-footer-contact{
+    list-style: none;
+}
+.footer-contact{
+    position: relative;
+}
+.contact-icon{
+    position: absolute;
+  width: 41px;
+}
+
